@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div {
+    background: red;
+    width: 150px;
+    height: 150px;
+}
+@media (max-width: 100px) {
+    .coinar {
+        background: blue;
+    }
+}
+
+@media (min-width 200px)
+ { .coinar{ background:black;
+
+ }
+   
+}
